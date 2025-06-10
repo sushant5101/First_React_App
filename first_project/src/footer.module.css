@@ -1,6 +1,5 @@
 .mainDiv{
     background-image: url('./assets/home/Rectangle-68.png');
-    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     padding: 15px;

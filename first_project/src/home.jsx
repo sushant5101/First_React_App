@@ -7,6 +7,9 @@ import img4 from './assets/home/image-1.png';
 import img5 from './assets/home/primer.jpg';
 import img6 from './assets/home/image-3.png';
 import check from './assets/check.svg';
+import phone from './assets/phone.svg';
+import mail from './assets/mail.svg';
+import pp from './assets/home/3.jpg';
 import style from './home.module.css';
 
 export default function Home() {
@@ -120,12 +123,32 @@ export default function Home() {
                     We are committed to the best products and quality keeping in mind the environment friendly as well as health friendly products.
                 </p>
                 <div className={style.scrollElement}>
-                    
-                </div>
 
-                
+                </div>
             </div>
 
+            <div className={style.expertAdvise}>
+                <div>
+                    <h1>
+                        “If you need expert advice, Contact us today”.
+                    </h1>
+                    <ul>
+                        <li><a href="#"><img src={mail} alt="mail" />info.digitalpaints@gmail.com</a></li>
+                        <li><a href="#"><img src={phone} alt="phone" />977-25-590300</a></li>
+                    </ul>
+                    <a href="#" className={style.linkBtn}>Read More</a>
+                </div>
+            </div>
+
+            <div className={style.ourTestimonials}>
+                <h1>Our Testimonials</h1>
+                <p>Valuable review from our customer</p>
+                <div className={style.reviews}>
+                    <span className={style.rev1}>
+                        <img src={pp} alt="pp" />
+                    </span>
+                </div>
+            </div>
         </div>
     </>
     );
