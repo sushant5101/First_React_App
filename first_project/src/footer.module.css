@@ -1,0 +1,66 @@
+.mainDiv{
+    background-image: url('./assets/home/Rectangle-68.png');
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+h2{
+    margin-bottom: 9px;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 6px;
+}
+
+p{
+    margin-bottom: 9px;
+}
+
+li{
+    list-style-type: none;
+    margin: 6px;
+}
+
+ul img{
+    width: 20px;
+    height: auto;
+    margin-right: 6px;
+}
+
+.mainDiv div{
+    width: 600px;
+    margin: 9px;
+    border: 2px solid;
+}
+
+.copyRight{
+    text-align: center;
+    background: #e10600;
+    padding: 9px;
+}
+
+.inputBox{
+    height: 40px;
+    max-width: 200px;
+    display: inline-flex;
+    background-color: white;
+}
+
+.inputBox input{
+    height: 100%;
+    outline: none;
+    border: none;
+    width: full;
+}
+
+.button{
+    outline: none;
+    background-color:#e10600 ;
+    border: none;
+    width: 50px;
+}

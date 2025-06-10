@@ -1,5 +1,4 @@
 body {
-    display: flex;
     color: white;
 }
 
@@ -50,21 +49,24 @@ h1 {
     font-size: 40px;
 }
 
-h1,
-p {
+.header,
+.paragraph {
     margin-bottom: 20px;
     line-height: 25px;
 }
 
 
-a {
+.linkBtn {
     text-decoration: none;
     color: white;
     padding: 15px;
     background-color: #e10600;
+    border: 1px solid;
 }
 
-.mainDiv2 {
+.mainDiv2,
+.mainDiv4,
+.mainDiv5 {
     color: black;
     background-color: white;
     display: flex;
@@ -72,7 +74,10 @@ a {
     padding: 10px;
 }
 
-.mainDiv2 h1,.mainDiv4 h1 {
+.mainDiv2 h1,
+.mainDiv4 h1,
+.mainDiv5 h1,
+.popularProducts h1 {
     color: #032f98;
 }
 
@@ -83,7 +88,7 @@ a {
 .mainDiv3 {
     width: 100vw;
     height: 256px;
-    background-color:white ;
+    background-color: white;
     padding: 10px;
 }
 
@@ -98,16 +103,54 @@ a {
     text-align: center;
 }
 
-.rectangleImg h1 h1{
+.rectangleImg h1 h1 {
     display: inline;
     color: #fec737;
 }
 
-.rectangleImg a{
+.rectangleImg a {
     background-color: transparent;
-    border: 1px solid white;
 }
 
-.mainDiv4{
+.subDiv {
+    background-color: #F8F8F9;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photos {
+    display: flex;
+    border: 2px solid red;
+}
+
+.photos div {
+    position: relative;
+    margin: 8px;
+}
+
+.photos a {
+    font-family: monospace;
+    width: 50%;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 59%;
+    transform: translateX(-50%);
+    background-color: rgba(102, 101, 101, 0.514);
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+}
+
+.popularProducts{
     color: black;
+text-align: center;margin: 7px;
+}
+
+.scrollElement{
+    border: 2px solid black;
+    height: 200px;
+    width: 80%;
+    margin: auto;
 }
