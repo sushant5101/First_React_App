@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    color: white;
+}
+
+.mainDiv{
+    background-color: white;
+}
+
+.landingBox {
+    background-image: url('./assets/home/slide1-1-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 765px;
+    position: relative;
+}
+
+.landingBox div {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.textBox ul {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.textBox ul li {
+    list-style-type: none;
+    margin: 6px;
+}
+
+.textBox ul img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 5px;
+}
+
+.textBox {
+    text-align: left;
+    width: 450px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 40px;
+}
+
+h1,
+p {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: #e10600;
+}
+
+.mainDiv2 {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.mainDiv2 h1,.mainDiv4 h1 {
+    color: #032f98;
+}
+
+.mainDiv2 div {
+    margin-top: 30px;
+}
+
+.mainDiv3 {
+    width: 100vw;
+    height: 256px;
+    background-color:white ;
+    padding: 10px;
+}
+
+.rectangleImg {
+    background-image: url('./assets/home/Rectangle-17371.png');
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rectangleImg h1 h1{
+    display: inline;
+    color: #fec737;
+}
+
+.rectangleImg a{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.mainDiv4{
+    color: black;
+}
